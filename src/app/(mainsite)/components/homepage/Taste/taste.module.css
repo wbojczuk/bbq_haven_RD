@@ -1,0 +1,48 @@
+.taste{
+    position: relative;
+    padding: var(--section-padding-top) 0;
+    color: var(--secondary-text-color);
+}
+
+.taste h2{
+    text-align: center;
+    padding: 0 35%;
+    font-size: 2.5rem;
+}
+
+.taste h3{
+    padding: 2vw 0;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+/* SMALL LAPTOP STYLES */
+@media only screen and (min-width: 991px) and (max-width: 1400px){
+
+}
+
+/* TABLET STYLES */
+@media only screen and (min-width: 650px) and (max-width: 990px){
+    .taste h2{
+        padding: 0 25%;
+        font-size: 2.5rem;
+    }
+    
+    .taste h3{
+        padding: 3vw 0;
+    }
+}
+
+ /* MOBILE STYLES */
+@media only screen and (max-width: 649px){
+    .taste h2{
+        padding: 0 15%;
+        font-size: 2.5rem;
+    }
+    
+    .taste h3{
+        padding: 5vw 0;
+        font-size: 1.6rem;
+    }
+}
