@@ -5,7 +5,6 @@ import styles from "./navbar.module.css"
 import Link from "next/link"
 import { useEffect, useRef, useState } from "react"
 import { usePathname } from "next/navigation"
-import NavMultiOption from "./NavMultiOption"
 import NavOption from "./NavOption"
 
 
