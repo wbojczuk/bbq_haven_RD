@@ -8,7 +8,7 @@ return (
  <header className={styles.header}>
     <h1>Best Barbecue in<br />Gainesville, GA!</h1>
 
-    <div className={`center ${styles.linkWrapper}`}>
+    <div className={`center main-body ${styles.linkWrapper}`}>
         <Link className='main-link' href='/contact'>Contact</Link>
     </div>
 

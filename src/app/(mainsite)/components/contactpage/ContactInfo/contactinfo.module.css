@@ -1,0 +1,124 @@
+.contactInfo{
+    padding: var(--section-padding-top) 15%;
+    color: var(--secondary-text-color);
+    position: relative;
+}
+
+.stuffWrapper{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.textContent{
+    padding-top: 4vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.contactInfo h2{
+    font-size: 4.5rem;
+    text-align: center;
+    padding: 0 15% 4vw 15%;
+    color: var(--primary-heading);
+   }
+
+.textContent p{
+    padding-bottom:1vw;
+    width: 70%;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 180%;
+    border-bottom: 4px dashed #fff;
+}
+
+.textContent h4{
+    font-weight: 400;
+    font-style: italic;
+    padding-top: 1vw;
+    font-size: 1.2rem;
+}
+
+.textContent .contactItem:nth-child(3){
+    padding-top: 1vw !important;
+}
+
+.contactItem{
+    display: inline-flex;
+    text-decoration: none;
+    color: var(--secondary-text-color);
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+    font-size: 1.1rem;
+    margin: 0.5vw 0;
+}
+
+.contactItem svg{
+    color: var(--secondary-text-color);
+    width: 3vw;
+    height: 3vw;
+}
+
+/* TABLET STYLES */
+@media only screen and (min-width: 650px) and (max-width: 990px){
+    .contactInfo{
+        padding: var(--section-padding-top) 2.5%;
+    }
+    .textContent p{
+        width: 80%;
+    }
+    .contactItem svg{
+        width: 4vw;
+        height: 4vw;
+    }
+    .contactInfo h2{
+        font-size: 4.5rem;
+        padding: 0 5% 6vw 5%;
+       }
+}
+ 
+/* MOBILE STYLES */
+@media only screen and (max-width: 649px){
+    .contactInfo{
+        padding: var(--section-padding-top) 15%;
+        
+    }
+    .contactInfo h2{
+        font-size: 3rem;
+        padding: 0 2.5% 8vw 2.5%;
+       }
+
+    .stuffWrapper{
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .textContent{
+        padding-top: 8vw;
+        align-items: center;
+    }
+    
+    .textContent p{
+        margin: 2vw 0 3vw;
+        width: 80%;
+        font-size: 1.3rem;
+        text-align: center;
+        line-height: 200%;
+    }
+    
+    .contactItem{
+        gap: 2vw;
+        font-size: 1.2rem;
+        margin: 1vw 0;
+    }
+    
+    .contactItem svg{
+        width: 6vw;
+        height: 6vw;
+    }
+    
+}

@@ -1,3 +1,6 @@
+import CateringContent from "@/app/(mainsite)/components/cateringpage/CateringContent/CateringContent"
+import Find from "@/app/(mainsite)/components/homepage/Find/Find"
+import PageTitle from "@/app/(mainsite)/components/misc/PageTitle/PageTitle"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
@@ -26,7 +29,9 @@ description: `${process.env.NEXT_PUBLIC_WEBSITE_DESC}`,
 export default function CateringPage(){
 	 return(
 	 	 <>
-
+			<PageTitle pageTitle="Catering" />
+			<CateringContent />
+			<Find />
 	 	 </>
 	 )
 }

@@ -30,6 +30,11 @@
 body{
   font-family: var(--primary-font);
   color: var(--primary-text-color);
+
+}
+
+body:not(body:has(.main-body)){
+  padding-top: 7vw;
 }
 
 .mobile{
@@ -129,7 +134,7 @@ body::-webkit-scrollbar-track {
 /* TABLET STYLES */
 @media only screen and (min-width: 650px) and (max-width: 990px){
   body{
-    padding-top: 13vw;
+    padding-top: 13vw !important;
   }
   :root{
     font-size: 12px;
@@ -145,7 +150,7 @@ body::-webkit-scrollbar-track {
 /* MOBILE STYLES */
 @media only screen and (max-width: 649px){
   body{
-    padding-top: 15vw;
+    padding-top: 15vw !important;
   }
   :root{
     font-size: 10px;
