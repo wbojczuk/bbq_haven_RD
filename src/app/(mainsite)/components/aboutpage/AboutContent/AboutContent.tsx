@@ -6,7 +6,7 @@ export default function AboutContent() {
   return (
     <section className={styles.section}>
         <div className={styles.imgWrapper}>
-            <img className={styles.img} src={"/img/about.png"} width={360} height={600} alt="Image of food truck" />
+            <img className={styles.img} src={"/img/about.webp"} width={360} height={600} alt="Image of food truck" />
         </div>
         
 

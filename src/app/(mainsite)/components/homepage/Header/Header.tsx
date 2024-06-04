@@ -12,7 +12,7 @@ return (
         <Link className='main-link' href='/contact'>Contact</Link>
     </div>
 
-    <img src='/img/header-bg.png' alt='Image of ' className='bg-img' />
+    <img src='/img/header-bg.webp' alt='Image of ' className='bg-img' />
     <div className='shader'></div>
  </header>
 )};

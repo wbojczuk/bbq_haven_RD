@@ -26,7 +26,7 @@ export default function ContactInfo() {
         </div>
 
         <div style={{backgroundColor: "rgba(153,49,4,.80)"}} className="shader"></div>
-        <img src="/img/contact.png" aria-hidden className="bg-img" />
+        <img src="/img/contact.webp" aria-hidden className="bg-img" />
     </section>
   )
 }

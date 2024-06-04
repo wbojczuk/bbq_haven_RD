@@ -6,7 +6,7 @@ export default function Event() {
   return (
     <section className={styles.section}>
         <div className={styles.imgWrapper}>
-            <img className={styles.img} src={"/img/event.png"} width={360} height={600} alt="Image of barbecue" />
+            <img className={styles.img} src={"/img/event.webp"} width={360} height={600} alt="Image of barbecue" />
         </div>
         
 

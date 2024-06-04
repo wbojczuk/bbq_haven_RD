@@ -6,7 +6,7 @@ export default function CateringContent() {
   return (
     <section className={styles.section}>
         <div className={styles.imgWrapper}>
-            <img className={styles.img} src={"/img/catering.png"} width={360} height={600} alt="Image of food truck" />
+            <img className={styles.img} src={"/img/catering.webp"} width={360} height={600} alt="Image of food truck" />
         </div>
         
 
