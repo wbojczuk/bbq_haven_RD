@@ -25,6 +25,7 @@ export default function Navbar() {
   const contactRef: any = useRef()
   const cateringRef: any = useRef()
   const photosRef: any = useRef()
+  const menuRef: any = useRef()
 
   const hamburgerRef: any = useRef()
   const contentRef: any = useRef()
@@ -52,6 +53,10 @@ export default function Navbar() {
     {
       triggers: ["/catering"],
       ref: cateringRef
+    },
+    {
+      triggers: ["/menu"],
+      ref: menuRef
     },
     {
       triggers: ["/", "/home"],
@@ -215,6 +220,11 @@ export default function Navbar() {
           title="Home"
           url="/"
           ref={homeRef}
+          />
+          <NavOption
+          title="Menu"
+          url="/menu"
+          ref={menuRef}
           />
 
           <NavOption

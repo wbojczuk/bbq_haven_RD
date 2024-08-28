@@ -1,0 +1,29 @@
+.menuContent{
+    position: relative;
+    padding: var(--section-padding-top) 0;
+    background-color: var(--primary-color);
+}
+
+.menuContent img{
+    width: 50%;
+}
+
+
+/* SMALL LAPTOP STYLES */
+@media only screen and (min-width: 991px) and (max-width: 1400px){
+
+}
+
+/* TABLET STYLES */
+@media only screen and (min-width: 650px) and (max-width: 990px){
+    .menuContent img{
+        width: 80%;
+    }
+}
+
+ /* MOBILE STYLES */
+@media only screen and (max-width: 649px){
+    .menuContent img{
+        width: 90%;
+    }
+}
